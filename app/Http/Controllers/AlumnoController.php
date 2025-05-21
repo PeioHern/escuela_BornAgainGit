@@ -26,11 +26,11 @@ class AlumnoController extends Controller
 
 
 
-    public function createAlumno()
-    {
+    // public function createAlumno()
+    // {
 
-        return view('alumnos.createAlumno');
-    }
+    //     return view('alumnos.createAlumno');
+    // }
 
 
     public function storeAlumno(Request $request)
